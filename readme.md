@@ -2,12 +2,20 @@
 
 ### Paper of our work
 
+This repo provides a demo for the MICCAI 2023 paper "GRACE: Enhancing Federated Learning for Medical Imaging with Generalized and Personalized Gradient Correction".
 
+paper link: (wait for camera ready version)
+
+To cite, please use:
+
+```latex
+
+```
 
 
 ### Structure of our code
 
-Unfinished!
+Unfinished (code for GRACE and TTA part)!
 
 ```shell
 ├── algorithms
@@ -74,16 +82,32 @@ Unfinished!
 
 ### Requirements
 
+- Python 3.9.7
+- numpy 1.20.3
+- torch 1.11.0
+- torchvision 0.12.0
 
 ### Datasets
+
+- Fed-Prostate
+- Fed-ISIC
 
 
 ### Training code
 
-
-### Visualization
+> python ./runs/run_trainer.py --algorithm FedAvg_Prostate_Trainer --dataset prostate --model prostate_unet --align_weight 0.1 --align_warmup 0 --align_type CORAL --batch_size 16 --lr 1e-3 --optimizer adam --lr_policy step --local_epochs 1 --rounds 200 --note baseline_prostate
+> python ./runs/run_trainer.py --algorithm FedAvg_isic_Trainer --dataset isic --model isic_b0 --align_weight 0.1 --align_warmup 0 --align_type CORAL --batch_size 64 --lr 5e-4 --optimizer adam --lr_policy step --local_epochs 5 --rounds 40 --note baseline_isic
 
 
 
 ### Acknowledgement
+
+Part of our code is borrowed from the following repositories.
+
+- FedDG-GA [https://github.com/MediaBrain-SJTU/FedDG-GA]
+- FACT [https://github.com/MediaBrain-SJTU/FACT]
+- DomainBed [https://github.com/facebookresearch/DomainBed]
+- FedNova [https://github.com/JYWa/FedNova]
+- SCAFFOLD-PyTorch [https://github.com/KarhouTam/SCAFFOLD-PyTorch]
+We thank to the authors for releasing their codes. Please also consider citing their works.
 
