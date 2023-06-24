@@ -97,7 +97,7 @@ Unfinished (code for GRACE and TTA part)!
 ```python
 python ./runs/run_trainer.py --algorithm FedAvg_Prostate_Trainer --dataset prostate --model prostate_unet --align_weight 0.1 --align_warmup 0 --align_type CORAL --batch_size 16 --lr 1e-3 --optimizer adam --lr_policy step --local_epochs 1 --rounds 200 --note baseline_prostate
 
-python ./runs/run_trainer.py --algorithm FedAvg_isic_Trainer --dataset isic --model isic_b0 --align_weight 0.1 --align_warmup 0 --align_type CORAL --batch_size 64 --lr 5e-4 --optimizer adam --lr_policy step --local_epochs 5 --rounds 40 --note baseline_isic
+python ./runs/run_trainer.py --algorithm FedAvg_ISIC_Trainer --dataset isic --model isic_b0 --align_weight 0.1 --align_warmup 0 --align_type CORAL --batch_size 64 --lr 5e-4 --optimizer adam --lr_policy step --local_epochs 5 --rounds 40 --note baseline_isic
 ```
 
 
