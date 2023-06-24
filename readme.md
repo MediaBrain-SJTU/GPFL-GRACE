@@ -89,8 +89,8 @@ Unfinished (code for GRACE and TTA part)!
 
 ### Datasets
 
-- Fed-Prostate
-- Fed-ISIC
+- Fed-Prostate (Prostate dataset in [FedDG-ELCFS](https://github.com/liuquande/FedDG-ELCFS) and [SAML](https://liuquande.github.io/SAML/))
+- Fed-ISIC (Fed-ISIC2019 in [Flamby](https://github.com/owkin/FLamby))
 
 
 ### Training code
@@ -105,9 +105,10 @@ Unfinished (code for GRACE and TTA part)!
 Part of our code is borrowed from the following repositories.
 
 - FedDG-GA [https://github.com/MediaBrain-SJTU/FedDG-GA]
+- Flamby [https://github.com/owkin/FLamby]
 - FACT [https://github.com/MediaBrain-SJTU/FACT]
-- DomainBed [https://github.com/facebookresearch/DomainBed]
-- FedNova [https://github.com/JYWa/FedNova]
+- FedDG-ELCFS [https://github.com/liuquande/FedDG-ELCFS]
 - SCAFFOLD-PyTorch [https://github.com/KarhouTam/SCAFFOLD-PyTorch]
+  
 We thank to the authors for releasing their codes. Please also consider citing their works.
 
