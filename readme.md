@@ -9,7 +9,13 @@ paper link: (wait for camera ready version)
 To cite, please use:
 
 ```latex
-
+@inproceedings{zhang2023grace,
+  title={GRACE: Enhancing Federated Learning for Medical Imaging with Generalized and Personalized Gradient Correction},
+  author={Zhang, Ruipeng and Fan, Ziqing and Xu, Qinwei and Yao, Jiangchao and Zhang, Ya and Wang, Yanfeng},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2023: 26th International Conference, Vancouver, Canada, October 8--October 10, 2023},
+  year={2023},
+  organization={Springer}
+}
 ```
 
 
